@@ -11,12 +11,18 @@
   }
   
   .label {
+    background-color: aliceblue;
     border: 2px solid black;
     width: 270px;
     margin: 20px auto;
     padding: 0 7px;
+    box-shadow: 5px 8px;
+    
   }
-  
+ .label:hover{
+    background-color:rgb(0, 0, 0);
+    color:antiquewhite
+ }
   header h1 {
     text-align: center;
     margin: -4px 0;
@@ -85,10 +91,12 @@
   }
   
   body {
+    background-color: antiquewhite;
     font-family: 'Open Sans', sans-serif;
   }
   
   .label {
+    background-color:ghostwhite;
     border: 2px solid black;
     width: 270px;
     margin: 20px auto;
@@ -171,4 +179,13 @@
   }
   .indent{
     margin-left: 1em;
+  }
+  .double-indent{
+    margin-left:2em;
+  }
+  .note {
+    font-size: 0.6rem;
+    padding: 0px 8px;
+    text-indent: -8px;
+    margin: 5px 0;
   }
